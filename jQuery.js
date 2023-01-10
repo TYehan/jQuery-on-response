@@ -21,7 +21,7 @@
 			}, 100);
 		});
         
-        
+		
 	// Nav.
 		var $nav_a = $nav.find('a');
 
@@ -32,8 +32,8 @@
 				var $this = $(this);
 
 				// External link? Bail.
-					if ($this.attr('href').charAt(0) != '#')
-						return;
+				if ($this.attr('href').charAt(0) != '#')
+					return;
 
 				// Prevent default.
 					e.preventDefault();
